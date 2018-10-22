@@ -1,0 +1,15 @@
+cd ~/Documents/Dojo/Git
+mkdir basic_repo
+touch index.html
+touch style.css
+git init
+git add index.html
+git add style.css
+git commit -m "add index.html and style.css"
+git remote add origin https://github.com/StevenCThaller/basic_repo.git
+git push origin master
+//Update index.html and style.css
+git add index.html
+git add style.css
+git commit -m "updates to both index.html and style.css"
+git push origin master
