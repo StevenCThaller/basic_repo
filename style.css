@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 970px;
+    background-color: orange;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    min-height: 40px;
+    background-color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    padding: 10px 0px 10px 5px;
+    position: relative;
+}
+
+header>h1 {
+    font-size: 20pt;
+    position: relative;
+}
+
+header>h2 {
+    font-size: 16pt;
+    text-align: right;
+}
+
+p {
+    min-height: 150px;
+    font-size: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    color: black;
+    padding: 5px;
+
+}
